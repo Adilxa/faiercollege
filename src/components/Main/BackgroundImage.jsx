@@ -7,7 +7,8 @@ const BackgroundImage = ({ imageUrl, children }) => {
                 src={imageUrl}
                 alt="Background Image"
                 placeholder='blur'
-                style={{ height: "80vh", objectFit: "cover", width: "100%" }}
+                style={{ objectFit: "cover", width: "100%" }}
+                className='max-md:bg-right max-md:h-[85svh] lg:h-[80svh]'
             />
             <div className='absolute inset-0 flex items-end '>
                 <div className='bg-primary w-full p-2'>{children}</div>
