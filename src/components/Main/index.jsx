@@ -5,7 +5,7 @@ import MainBg from "../../public/MainBg.png"
 function MainInformation() {
 
     return (
-        <main className='w-full'>
+        <main className='w-full mb-10'>
             <BackgroundImage imageUrl={MainBg}>
                 <div className='container text-white'>
                     <h1 className='text-4xl mb-3 font-medium'>ABOUT PAIER</h1>

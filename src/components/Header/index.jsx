@@ -37,7 +37,7 @@ function Header() {
                         }
                     </div>
                 </div>
-                <div className='navigation text-white  flex text-[24px] gap-7 font-light max-md:hidden'>
+                <div className='navigation text-white   flex text-[24px] gap-7  font-light  max-md:hidden'>
                     {
                         links.map((el) => <Link key={el.title} href={el.to}>
                             {el.title}
