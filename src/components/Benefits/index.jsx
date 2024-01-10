@@ -1,6 +1,7 @@
 import React from 'react';
 import { BenefitsCard } from '@/constants/Benefits';
 
+
 function Benefits() {
     return (
         <section className='container mb-10'>

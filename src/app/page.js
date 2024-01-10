@@ -7,6 +7,8 @@ import Directions from "@/components/Directions";
 import Benefits from "@/components/Benefits";
 import StartJourney from "@/components/StartJourney";
 import Faq from "@/components/Faq";
+import VideoSide from "@/components/VideoSide";
+import Apply from "@/components/Apply";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Benefits />
       <StartJourney />
       <Faq />
+      <VideoSide />
+      <Apply />
     </>
   );
 }
