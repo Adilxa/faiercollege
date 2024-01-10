@@ -3,6 +3,9 @@ import Header from "@/components/Header";
 import MainInformation from "@/components/Main";
 import AboutCollege from "@/components/AboutCollege";
 import WhyShould from "@/components/WhyUse";
+import Directions from "@/components/Directions";
+import Benefits from "@/components/Benefits";
+import StartJourney from "@/components/StartJourney";
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
       <MainInformation />
       <AboutCollege />
       <WhyShould />
+      <Directions />
+      <Benefits />
+      <StartJourney />
     </>
   );
 }
