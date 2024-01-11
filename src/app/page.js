@@ -9,6 +9,7 @@ import StartJourney from "@/components/StartJourney";
 import Faq from "@/components/Faq";
 import VideoSide from "@/components/VideoSide";
 import Apply from "@/components/Apply";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Faq />
       <VideoSide />
       <Apply />
+      <Footer />
     </>
   );
 }

@@ -17,7 +17,7 @@ function Header() {
                 <Image src={Logo} width={200} height={60} alt='Logo' className='max-md:w-[110px]'></Image>
 
                 <div onClick={() => setBurger(true)} className='max-md:block lg:hidden  cursor-pointer p-1'>
-                    <Image src={BurgerIcon} width={30} height={30} alt="burger"></Image>
+                    <Image src={BurgerIcon} className='w-[30px] h-[30px]' alt="burger"></Image>
                 </div>
 
                 <div
@@ -26,7 +26,7 @@ function Header() {
                 >
                     <header className='flex justify-end'>
                         <div onClick={() => setBurger(false)}>
-                            <Image src={CloseIcon} width={30} height={30} alt="close"></Image>
+                            <Image src={CloseIcon} className='w-[30px] h-[30px]' alt="close"></Image>
                         </div>
                     </header>
                     <div className='flex flex-col gap-2 text-xl'>

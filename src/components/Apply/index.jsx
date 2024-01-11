@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Apply() {
@@ -6,7 +7,7 @@ function Apply() {
             <section className='mb-10 border-2 border-[#2C2052] flex flex-col items-center gap-7 pt-5 max-md:gap-4 max-md:pt-3'>
                 <h1 className='text-[#2C2052] text-4xl  font-medium'>APPLY</h1>
                 <h3 className='text-[#2C2052] text-2xl  font-medium mb-2 max-md:text-xl max-md:font-normal  text-center'>START THE JOURNEY TO YOUR DREAM PROFESSION WITH LIKE-MINDED PEOPLE</h3>
-                <button className='w-full p-4 bg-[#2C2052] text-white'>FOLLOW LINK</button>
+                <Link href={"apply"} className='w-full p-4 bg-[#2C2052] text-white text-center'>FOLLOW LINK</Link>
             </section>
             <section className='mb-10 bg-[#2C2052] p-6 text-center'>
                 <h1 className='text-white text-4xl max-md:text-3xl font-medium border-b-2 pb-3 mb-3'>Statement of Non-Discrimination
