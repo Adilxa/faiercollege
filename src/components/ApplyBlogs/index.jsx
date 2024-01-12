@@ -8,7 +8,7 @@ function ApplyBlogs() {
         <section className='container flex flex-col gap-5 mb-10'>
             {
                 ApplyBlogsArray.map((el, i) => (
-                    <div className=' border-2 p-5  border-[#2C2052]'>
+                    <div key={el + i} className=' border-2 p-5  border-[#2C2052]'>
                         <div className={`flex justify-between gap-5 max-md:flex-col ${i % 2 === 0 ? 'flex-row-reverse' : ''}`}>
                             <div className={`w-6/12 ${i % 2 === 0 ? 'order-1' : 'order-2'} max-md:w-full`}>
                                 <h1 className='border-b border-[#2C2052] text-3xl mb-3 font-medium max-md:text-xl'>{el.title}</h1>

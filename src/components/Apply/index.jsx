@@ -7,8 +7,6 @@ function Apply() {
 
     const pathname = usePathname()
 
-    console.log(pathname);
-
     return (
         <section className='container'>
             <section className='mb-10 border-2 border-[#2C2052] flex flex-col items-center gap-7 pt-5 max-md:gap-4 max-md:pt-3'>
