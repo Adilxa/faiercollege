@@ -19,7 +19,6 @@ function Header() {
                 <div onClick={() => setBurger(true)} className='max-md:block lg:hidden  cursor-pointer p-1'>
                     <Image src={BurgerIcon} className='w-[30px] h-[30px]' alt="burger"></Image>
                 </div>
-
                 <div
                     className={`${burger ? 'translate-x-0 z-10' : 'translate-x-full z-10'
                         } sidebar fixed top-0 right-0 h-full w-full bg-[#2C2052] text-white p-6 transform transition-transform duration-500 ease-out`}
