@@ -8,7 +8,7 @@ import Instagram from "../../public/svg/Instagram.svg";
 function Footer() {
     return (
         <>
-            <footer className='bg-[#2C2052] py-5'>
+            <footer id='footer' className='bg-[#2C2052] py-5'>
                 <section className='container flex justify-between items-center max-lg:flex-wrap-reverse max-lg:gap-10'>
                     <nav className='navigation flex items-center gap-10 h-full max-md:items-start max-lg:w-full max-lg:justify-between'>
                         <div className='flex flex-col h-max gap-7'>

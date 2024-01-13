@@ -44,7 +44,7 @@ function Faq() {
     ])
 
     const onCloseClick = (index) => {
-        const array = faqState.map((el, i) => i == index ? { ...el, isOpen: true } : { ...el, isOpen: false })
+        const array = faqState.map((el, i) => i == index ? { ...el, isOpen: !el.isOpen } : { ...el, isOpen: false })
         setState(array)
     }
 
