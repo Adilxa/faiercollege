@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import BackgroundImage from './BackgroundImage';
 import MainBg from "../../public/Girl.png";
 import AdaptiveMainBg from "../../public/adaptiveGirl.png";
