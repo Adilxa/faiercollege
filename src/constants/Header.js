@@ -4,15 +4,15 @@ export const links = [
     title: "Home",
   },
   {
-    to: "/Directions",
+    to: "https://www.paier.edu/undergrad/",
     title: "Directions",
   },
   {
-    to: "/Admission",
+    to: "https://www.paier.edu/admissions/",
     title: "Admission",
   },
   {
-    to: "/Contact",
+    to: "/#footer",
     title: "Contact",
   },
 ];

@@ -23,8 +23,14 @@ function Footer() {
                         </div>
                         <div className='flex flex-col h-max gap-7'>
                             <div className='flex items-center gap-5 pl-5'>
-                                <Image className='max-md:w-[40px]' src={Facebook} alt='facebook' />
-                                <Image className='max-md:w-[40px]' src={Instagram} alt='instagram' />
+                                <a href='https://www.facebook.com/PaierCollege/'>
+                                    <Image className='max-md:w-[40px]' src={Facebook} alt='facebook' />
+
+                                </a>
+                                <a href="https://www.instagram.com/paiercollege/">
+                                    <Image className='max-md:w-[40px]' src={Instagram} alt='instagram' />
+                                </a>
+
                             </div>
                             <div className='flex flex-col text-white font-light text-[20px] py-2 gap-2 border-l-2 pl-4 max-md:text-sm'>
                                 {

@@ -1,27 +1,27 @@
-import FirstAboutCard from "../public/FirstAboutCard.png";
-import SecondAboutCard from "../public/SecondAboutCard.png";
+import Illustration from "../public/illustration.png";
+import InteriorDesign from "../public/interiorDesign.png";
 import ThirthAboutCard from "../public/ThirthAboutCard.png";
-import FourthAboutCard from "../public/FourthAboutCard.png";
+import FineArts from "../public/fineArt.png";
 
 export const DirectionCards = [
   {
     title: "ILLUSTRATION",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    image: FirstAboutCard,
+    to: "https://www.paier.edu/undergrad/illustration/",
+    image: Illustration,
   },
   {
     title: "INTERIOR DESIGN",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    image: SecondAboutCard,
+    to: "https://www.paier.edu/undergrad/interior-design/",
+    image: InteriorDesign,
   },
   {
     title: `WEB AND MOBILE\nAPPLICATION DESIGN`,
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    to: "https://www.paier.edu/undergrad/web-application-design/",
     image: ThirthAboutCard,
   },
   {
     title: "FINE ARTS",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    image: FourthAboutCard,
+    to: "https://www.paier.edu/undergrad/fine-arts/",
+    image: FineArts,
   },
 ];

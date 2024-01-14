@@ -12,7 +12,7 @@ function Header() {
     const [burger, setBurger] = useState(false)
 
     return (
-        <header className=' bg-[#2C2052] py-5'>
+        <header id='header' className=' bg-[#2C2052] py-5'>
             <section className='container flex justify-between align-middle items-center'>
                 <Image src={Logo} width={200} height={60} alt='Logo' className='max-md:w-[110px]'></Image>
 

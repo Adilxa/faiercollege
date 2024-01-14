@@ -6,22 +6,22 @@ import FourthAboutCard from "../public/FourthAboutCard.png";
 export const AboutCards = [
   {
     title: "CAMPUS",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    to: "https://www.paier.edu/admissions/campus-tours/",
     image: FirstAboutCard,
   },
   {
     title: "STUDENT LIFE",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    to: "https://www.paier.edu/students/",
     image: SecondAboutCard,
   },
   {
     title: "TEACHERS",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    to: "https://www.paier.edu/faculty/",
     image: ThirthAboutCard,
   },
   {
     title: "DORMITORY",
-    to: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    to: "https://www.paier.edu/housing/",
     image: FourthAboutCard,
   },
 ];

@@ -1,12 +1,17 @@
+"use client"
 import React from 'react'
 import BackgroundImage from './BackgroundImage';
-import MainBg from "../../public/Girl.png"
+import MainBg from "../../public/Girl.png";
+import AdaptiveMainBg from "../../public/adaptiveGirl.png";
+import useWindowSize from '@/app/hooks/useWindowSize';
 
 function WhyShould() {
 
+    const { width } = useWindowSize()
+
     return (
         <main className='w-full mb-10'>
-            <BackgroundImage imageUrl={MainBg}>
+            <BackgroundImage imageUrl={width <= 768 ? AdaptiveMainBg : MainBg}>
                 <div className='container text-white'>
                     <h1 className='text-4xl mb-3 font-medium'>WHY SHOULD YOU CHOOSE PAIER</h1>
                     <p className='text-l font-light max-md:text-[17px] lg:text-xl'>Paier College is an institution that prepares students for
