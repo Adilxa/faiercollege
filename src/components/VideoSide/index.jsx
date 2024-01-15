@@ -1,11 +1,9 @@
 import React from 'react';
-import VideoImage from '../../public/Video.png';
-import Image from 'next/image';
 
 function VideoSide() {
     return (
         <section className='mb-10 container'>
-            <Image alt="video" src={VideoImage} className='max-md:bg-right  lg:h-[80svh] bg-cover  max-md:bg-contain ' style={{ width: "100%" }} />
+            <video controls src="https://firebasestorage.googleapis.com/v0/b/alog-store.appspot.com/o/I_Am_Paier.mp4?alt=media&token=d66c6bb0-08d6-4780-ae0c-f4f9bd6ba094"></video>
         </section>
     )
 }
